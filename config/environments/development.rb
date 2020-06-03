@@ -29,7 +29,7 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'rails_tutorial_ozawa'
+  host = 'https://dad02762d6244eb9b9138c51274b2c24.vfs.cloud9.ap-northeast-1.amazonaws.com'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
   config.action_mailer.perform_caching = false
 

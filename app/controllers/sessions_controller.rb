@@ -15,7 +15,6 @@ class SessionsController < ApplicationController
         message += "Check your email for the activation link."
         flash[:warning] = message
         redirect_to root_url
-        render 'new'
       end
     else
       flash.now[:danger] = 'Invalid email/password combination'
